@@ -710,11 +710,12 @@ svg {
 }
 
 .systems-section .split-heading {
-  grid-template-columns: minmax(780px, 1fr) minmax(500px, 0.55fr);
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.55fr);
   width: min(100% - 96px, 1360px);
 }
 
 .systems-lead {
+  min-width: 0;
   max-width: 560px;
 }
 
@@ -722,6 +723,7 @@ svg {
   display: grid;
   gap: 18px;
   align-self: end;
+  min-width: 0;
 }
 
 .proof-context {
@@ -736,6 +738,7 @@ svg {
 }
 
 .systems-proof-context {
+  min-width: 0;
   max-width: 560px;
   margin: 0;
   color: rgba(255, 255, 255, 0.64);
