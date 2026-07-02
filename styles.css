@@ -718,6 +718,12 @@ svg {
   max-width: 560px;
 }
 
+.systems-copy {
+  display: grid;
+  gap: 18px;
+  align-self: end;
+}
+
 .proof-context {
   max-width: 840px;
   margin-top: -18px;
@@ -727,6 +733,15 @@ svg {
   font-size: clamp(14px, 1.2vw, 16px);
   line-height: 1.7;
   padding-left: 22px;
+}
+
+.systems-proof-context {
+  max-width: 560px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: clamp(13px, 1vw, 15px);
+  line-height: 1.65;
+  padding-left: 18px;
 }
 
 .case-proof-context {
@@ -2319,6 +2334,10 @@ svg {
     margin-top: -10px;
     margin-bottom: 30px;
     padding-left: 16px;
+  }
+
+  .systems-proof-context {
+    margin: 0;
   }
 
   .system-console {
