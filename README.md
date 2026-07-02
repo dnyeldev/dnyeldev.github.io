@@ -17,4 +17,4 @@ Live URL: https://dnyeldev.github.io/
 
 ## Contact
 
-Primary calls to action open a new message to `daniel.mabalot@icloud.com`.
+Primary calls to action open a new message to `daniel.mabalot@icloud.com` with the subject `AI Automation System Inquiry`.
