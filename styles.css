@@ -1445,6 +1445,12 @@ svg {
   padding: 0;
 }
 
+.zapier-logo {
+  background: var(--white);
+  -webkit-mask: url("https://api.iconify.design/logos:zapier-icon.svg") center / contain no-repeat;
+  mask: url("https://api.iconify.design/logos:zapier-icon.svg") center / contain no-repeat;
+}
+
 .tool-logo-set {
   display: grid;
   grid-template-columns: repeat(2, 20px);
